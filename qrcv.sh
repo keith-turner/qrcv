@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <input> <output>.mp4"
+    echo "Usage: $0 <input> <output>.gif"
 fi
 
 input=$(readlink -f $1)
@@ -23,7 +23,7 @@ for f in *; do
     let counter=counter+1
 done
 
-ffmpeg -framerate 7 -i '%04d.png' -c:v libx264 -r 30 "$output"
+ffmpeg -framerate 7 -i '%04d.png' "$output"
 
 # TODO remove safely
 # rm -rf "$tmpdir"
