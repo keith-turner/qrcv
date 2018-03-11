@@ -4,7 +4,7 @@ Qrcode video script.  This script does the following with an input file.
 
  * Breaks file into lots of small equal sized files.
  * Encodes each small file as a qrcode (with a sequence number at the beggining).
- * Combines all of the qrcodes into a video.
+ * Combines all of the qrcodes into an animated gif.
 
 Do not ask why this was created.
 
