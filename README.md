@@ -6,7 +6,11 @@ Qrcode video script.  This script does the following with an input file.
  * Encodes each small file as a qrcode (with a sequence number at the beggining).
  * Combines all of the qrcodes into a video.
 
-Do not ask why this was created.  
+Do not ask why this was created.
+
+<p align="center">
+  <img src="example.gif"/>
+</p>
 
 Decoding a qrcode video to the original file is such a trivial task that it is
 left as an excercise to the user.  Also, this project went to great effort to
